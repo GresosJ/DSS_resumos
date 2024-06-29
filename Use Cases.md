@@ -72,16 +72,18 @@ Um exemplo de diagrama possivel para o exemplo anterior.
 
 ----------//----------
 
-Sistema -> Defina as fronteiras da solução a desenvolver;
-Atores -> Uma abstração para uma entidade fora do sistema;
+ - Sistema -> Defina as fronteiras da solução a desenvolver;
+ - Atores -> Uma abstração para uma entidade fora do sistema;
        -> Uma ator modela um proposito (alguém que tem um interesse especifico no sistema) pode não mapear 1 para 1 com entidades no mundo real;
        -> O conjunto de todos os actores definem todas as formas de iteração de use cases;
-Associação -> Representa comunicação entre o actor e o sistema - atraves de use cases;
+ - Associação -> Representa comunicação entre o actor e o sistema - atraves de use cases;
            -> Pode ser bi-direcional ou uni-direcional;
            -> Não demonstra associações com sistemas externos;
 
 *Include* :: relação de inclusão que não define ordem. O actor utiliza o use case base, quando o use case é executado, o use case incluido tambem é executado.
+
 *Extend* :: permite adicionar um comportamento a um use case base, *sob certas condições*.
+
 *Generalização/Especialização* : Sub-elementos são casos particulares de super-elementos. Um sub-elemento pode ser utilizado onde quer que um super elemento possa ser utilizado.
 
 ![Diagrama de Use Cases](img/diagUseCases2.png)
